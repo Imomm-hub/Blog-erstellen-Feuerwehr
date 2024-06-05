@@ -1,0 +1,289 @@
+/*
+Theme Name:	FF-Kaiserswerth
+Description:	FF-Kaiserswerth Child-Theme 
+Author:		Daniel Niestroj
+Author URI:	http://www.ff-kaiserswerth.de/
+Template: 	ffkai
+Text Domain:	ffkai-child
+*/
+
+
+@import url("../ffkai/style.css");
+
+
+/* Schriftgröße Titelbar */
+
+.titlebar h1 {
+	font-size: 24px;
+}
+
+
+/* Simple Calendar Schriftgröße */
+
+.simcal-default-calendar .simcal-current h3 {
+	font-size: 15px;
+}
+
+
+/* Simple Calendar Eventbubbles */
+
+.simcal-default-calendar .simcal-events {
+	padding-left: 0;
+}
+
+
+/* Simple Calendar Edit-Link */
+
+.simcal-default-calendar .post-edit-link {
+	display: none;
+}
+
+
+/* Sidebar rechts */
+
+.right-sidebar {
+	padding-top: 7px;
+}
+
+
+/* Tabelle Standard top */
+
+td {
+	border-top: 1px solid #ededed;
+	padding: 6px 10px 6px 0;
+	vertical-align: top !important;
+}
+
+
+/* Tabelle zentriert mittig mit Wechsel */
+
+.nx-table.table-rettungsgasse table,
+.nx-table.table-sirenensignale table,
+.nx-table.table-rauchmelder table {
+	width: 100% !important;
+	margin: 0 0 1.5em 0 !important;
+	border-collapse: collapse !important;
+	font-size: 1em !important;
+	border: 1px solid #fff !important;
+}
+
+.nx-table.table-rettungsgasse th,
+.nx-table.table-sirenensignale th,
+.nx-table.table-rauchmelder th {
+	text-align: center !important;
+	padding: 1em !important;
+	font-size: 1em !important;
+	font-weight: normal !important;
+	color: #333 !important;
+	border: 1px solid #fff !important;
+	background: #f0f0f0 !important;
+}
+
+.nx-table.table-rettungsgasse td,
+.nx-table.table-sirenensignale td,
+.nx-table.table-rauchmelder td {
+	text-align: center !important;
+	vertical-align: middle !important;
+	line-height: 22px !important;
+	padding: 0.5em 1em !important;
+	border: 3px solid #fff !important;
+	background: #f5f5f5 !important;
+}
+
+.nx-table.table-rettungsgasse .nx-even td,
+.nx-table.table-sirenensignale .nx-even td,
+.nx-table.table-rauchmelder .nx-even td {
+	text-align: center !important;
+	vertical-align: middle !important;
+	line-height: 22px !important;
+	background: #f5f5f5 !important
+}
+
+
+/* Tabelle zentriert oben mit Wechsel */
+
+.nx-table.table-rauchmelder table {
+	width: 100% !important;
+	margin: 0 0 1.5em 0 !important;
+	border-collapse: collapse !important;
+	font-size: 1em !important;
+	border: 1px solid #fff !important;
+}
+
+.nx-table.table-rauchmelder th {
+	text-align: center !important;
+	padding: 1em !important;
+	font-size: 1em !important;
+	font-weight: normal !important;
+	color: #333 !important;
+	border: 1px solid #fff !important;
+	background: #f0f0f0 !important;
+}
+
+.nx-table.table-rauchmelder td {
+	text-align: center !important;
+	vertical-align: top !important;
+	line-height: 22px !important;
+	padding: 0.5em 1em !important;
+	border: 3px solid #fff !important;
+	background: #f5f5f5 !important;
+}
+
+.nx-table.table-rauchmelder .nx-even td {
+	text-align: center !important;
+	vertical-align: top !important;
+	line-height: 22px !important;
+	background: #f5f5f5 !important
+}
+
+
+/* Tabelle links oben ohne Wechsel */
+
+.nx-table.table-schutzstufen table {
+	width: 100% !important;
+	margin: 0 0 1.5em 0 !important;
+	border-collapse: collapse !important;
+	font-size: 1em !important;
+	border: 1px solid #fff !important;
+}
+
+.nx-table.table-schutzstufen th {
+	text-align: left !important;
+	padding: 1em !important;
+	font-size: 1em !important;
+	font-weight: normal !important;
+	color: #333 !important;
+	border: 1px solid #fff !important;
+	background: #f0f0f0 !important;
+}
+
+.nx-table.table-schutzstufen td {
+	text-align: left !important;
+	vertical-align: top !important;
+	line-height: 22px !important;
+	padding: 0.5em 1em !important;
+	border: 3px solid #fff !important;
+	background: #f5f5f5 !important;
+}
+
+.nx-table.table-schutzstufen .nx-even td {
+	text-align: left !important;
+	vertical-align: top !important;
+	line-height: 22px !important;
+	background: #f5f5f5 !important
+}
+
+
+/* Tabelle links oben mit Wechsel */
+
+.nx-table.table-brandklassen table
+.nx-table.table-brandbekaempfung table {
+	width: 100% !important;
+	margin: 0 0 1.5em 0 !important;
+	border-collapse: collapse !important;
+	font-size: 1em !important;
+	border: 1px solid #fff !important;
+}
+
+.nx-table.table-brandklassen th,
+.nx-table.table-brandbekaempfung th {
+	text-align: left !important;
+	padding: 1em !important;
+	font-size: 1em !important;
+	font-weight: normal !important;
+	color: #333 !important;
+	border: 1px solid #fff !important;
+	background: #f0f0f0 !important;
+}
+
+.nx-table.table-brandklassen td,
+.nx-table.table-brandbekaempfung td {
+	text-align: left !important;
+	vertical-align: top !important;
+	line-height: 22px !important;
+	padding: 0.5em 1em !important;
+	border: 3px solid #fff !important;
+	background: #fff !important;
+}
+
+.nx-table.table-brandklassen .nx-even td,
+.nx-table.table-brandbekaempfung .nx-even td {
+	text-align: left !important;
+	vertical-align: top !important;
+	line-height: 22px !important;
+	background: #f5f5f5 !important
+}
+
+
+/* Tabelle links oben transparent padding bearbeitet */
+
+.nx-table.table-ansprechpartner table,
+.nx-table.table-geschichte table {
+	width: 100% !important;
+	margin: 0 0 1.5em 0 !important;
+	border-collapse: collapse !important;
+	font-size: 1em !important;
+	border: 0px solid #fff !important;
+}
+
+.nx-table.table-ansprechpartner th,
+.nx-table.table-geschichte th {
+	text-align: left !important;
+	padding: 1em !important;
+	font-size: 1em !important;
+	font-weight: normal !important;
+	color: #333 !important;
+	border: 0px solid #fff !important;
+	background: # !important;
+}
+
+.nx-table.table-ansprechpartner td,
+.nx-table.table-geschichte td {
+	text-align: left !important;
+	vertical-align: top !important;
+	line-height: 22px !important;
+	padding: 0.5em 0.5em 1em 0 !important;
+	border: 0px solid #fff !important;
+	background: # !important;
+}
+
+.nx-table.table-ansprechpartner .nx-even td,
+.nx-table.table-geschichte .nx-even td {
+	text-align: left !important;
+	vertical-align: top !important;
+	line-height: 22px !important;
+	background: #fff !important
+}
+
+
+/* Zeilenhöhe Counter */
+
+.countup-text {
+	line-height: 22px;
+}
+
+
+/* Facebook Feed */
+
+.cff-view-comments,
+.cff-comment-likes,
+.cff-comments,
+.cff-comment {
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+
+/* Sidebar Widgets Zeilenabstand */
+
+.widget .widget-title {
+margin: 0 0 0px;
+}
+
+
+/* Wetterwarner Abstand Gueltigkeit */
+
+.ww_Zeit {
+padding-left: 5px;
+}
