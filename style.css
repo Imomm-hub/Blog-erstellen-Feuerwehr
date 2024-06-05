@@ -1,0 +1,200 @@
+img{
+    width: 350px ;
+    height: 200px ;
+    margin: 15px;
+    padding: 15px;
+}
+
+
+p1 {
+
+color: red;
+
+
+}
+p2 {
+
+    color: orange;
+    
+    
+}
+p3 {
+
+    color: red;
+        
+    
+        }
+
+header{
+
+background-color: red;  
+color: black;
+font-weight: bolder;
+text-align: center;
+background-image: url('FwDus_Logo_rot.jpg');
+background-position: left; 
+background-repeat: no-repeat; 
+background-size: 400px ;
+height: 200px; 
+} 
+
+
+.containerBilder{
+margin: 100px;
+height: 350px;
+width: 300px;
+}
+
+
+
+p4{
+text-align:  500px;
+color: silver;
+opacity: 5;
+
+
+}
+
+li {
+    padding: 10px;
+    transition: all 0.3s ease; 
+  }
+  
+  
+  li:hover {
+    background-color: #f0f0f0; 
+    color: #333;
+    transform: scale(1.1); 
+  }
+  
+  p6{
+
+    font-weight: bold;
+  }
+
+ .footer {
+color: black;
+background-color: red;
+text-align: center;
+height: 150px;
+padding: 20px;
+
+  
+
+  
+    margin: 0;
+      padding: 0;
+  }
+  
+  
+  
+  body {
+  
+       background-color: black;
+       color: white;
+       line-height: 1.3;
+       font-family: sans-serif;
+       font-size: 100%;
+  }
+  
+  
+  #Gesamt {
+      overflow:hidden;
+        background: white;
+      width: 95%;
+        margin: 1% auto;
+  }
+  
+  .kopf {
+        background-color:white;
+        color: white;
+      padding: 2%;
+  }
+  
+  
+  
+  
+  .inhalt {
+        background-color:white;
+      padding: 2%;
+  
+  }
+  
+  a:link, a:visited {
+        color: #f00;
+        text-decoration: none;
+  }
+  
+  .navigation ul {
+        padding-left: 0;
+  }
+  
+  .navigation li {
+        display: block;
+      width: 70%;
+      list-style: none;
+      padding: 5% 0 0 3%;
+  
+  
+  }
+  
+  .sprung {
+        display: block;
+        padding: 4% 0;
+      text-align:center;
+      }
+  
+  img {
+    max-width:100%;
+  }
+  
+  @media print{
+    img {
+      
+      
+  
+      width:40%;
+    }
+    .sprung, .navigation {
+     display:none;
+    }
+  }
+  
+  
+  
+  @media screen and (min-width:600px) {
+      .sprung {
+  
+      display:none;
+  
+      }
+      .navigation {
+  
+        float:left;
+        width:25%;
+        padding:2%;
+  
+        }
+  
+      .inhalt {
+  
+      float:right;
+      width:65%;
+      padding:3%;
+  
+        }
+  
+      .navigation li {
+        display:list-item;
+        list-style-type:square;
+        border-bottom:dotted #FF0000 2px;
+        list-style-position:inside;
+        color: #F00;
+      }
+  
+      .navigation ul {
+        padding-left: 6%;
+  
+      }
+  
+  }

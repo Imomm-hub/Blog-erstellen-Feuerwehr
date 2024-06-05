@@ -1,0 +1,16 @@
+.Bild {
+    display: block;
+    text-align: center;
+    margin-top: 400px;
+   
+background-color: white;
+}
+p{
+    text-align:center ;
+margin: auto;
+font-size: 100px;
+}
+body{
+background-color: red;
+opacity: 0.75;
+}
