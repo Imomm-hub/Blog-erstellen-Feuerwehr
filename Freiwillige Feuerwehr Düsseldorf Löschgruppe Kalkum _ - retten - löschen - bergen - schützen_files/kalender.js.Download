@@ -1,0 +1,33 @@
+var bn_who="";
+function kalender(s)
+{	document.getElementById('bn_frame').style.top=yPos + "px";
+	document.getElementById('bn_frame').style.left=xPos + "px";
+	document.getElementById('bn_frame').style.display='block';	
+	bn_who=s;
+}
+
+init_mousemove();
+
+var xPos="";
+var yPos="";
+var docEl = (   typeof document.compatMode != "undefined" && 
+                 document.compatMode        != "BackCompat"
+                )? "documentElement" : "body";
+
+function init_mousemove() 
+{    if(document.layers) document.captureEvents(Event.MOUSEMOVE);
+    document.onmousemove =	dpl_mouse_pos;
+}
+
+function dpl_mouse_pos(e) 
+{   xPos    =  e? e.pageX : window.event.x;
+  	yPos    =  e? e.pageY : window.event.y;
+
+	
+	if (document.all && !document.captureEvents && docEl) 
+	{   xPos    += document[docEl].scrollLeft;
+	    yPos    += document[docEl].scrollTop;
+	}
+    
+    if (document.layers) routeEvent(e);
+}
