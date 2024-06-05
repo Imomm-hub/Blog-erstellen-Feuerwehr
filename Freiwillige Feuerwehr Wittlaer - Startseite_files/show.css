@@ -1,0 +1,131 @@
+.widget-small {display: none;}
+.cm-pixel-small .widget-small {display: block;}
+.widget-wide {display: block;}
+.cm-pixel-small .widget-wide {display: none;}
+.cm-download-widget a {
+	word-break: break-all;
+}
+
+.cm4all-download-mime {
+	width: 48px;
+	heigth: 48px;
+}
+
+.cm4all-download-mime-application-octet-stream {
+	background-image : url(/.cm4all/widgetres.php/cm4all.com.widgets.DownloadWidget/mime_unknown.png)
+}
+
+.cm4all-download-mime-video-x-msvideo {
+  background-image : url(/.cm4all/widgetres.php/cm4all.com.widgets.DownloadWidget/mime_avi.png)
+}
+
+.cm4all-download-mime-image-bmp,
+.cm4all-download-mime-image-x-windows-bmp {
+  background-image : url(/.cm4all/widgetres.php/cm4all.com.widgets.DownloadWidget/mime_bmp.png)
+}
+
+.cm4all-download-mime-application-msword {
+  background-image : url(/.cm4all/widgetres.php/cm4all.com.widgets.DownloadWidget/mime_doc.png)
+}
+
+.cm4all-download-mime-image-gif {
+  background-image : url(/.cm4all/widgetres.php/cm4all.com.widgets.DownloadWidget/mime_gif.png)
+}
+
+.cm4all-download-mime-application-x-compressed,
+.cm4all-download-mime-application-x-gzip
+ {
+  background-image : url(/.cm4all/widgetres.php/cm4all.com.widgets.DownloadWidget/mime_gz.png)
+}
+
+.cm4all-download-mime-text-html {
+  background-image : url(/.cm4all/widgetres.php/cm4all.com.widgets.DownloadWidget/mime_html.png)
+}
+
+.cm4all-download-mime-image-jpeg,
+.cm4all-download-mime-image-pjpeg {
+  background-image : url(/.cm4all/widgetres.php/cm4all.com.widgets.DownloadWidget/mime_jpg.png)
+}
+
+.cm4all-download-mime-image-jp2,
+.cm4all-download-mime-image-jpx,
+.cm4all-download-mime-image-jpm {
+  background-image : url(/.cm4all/widgetres.php/cm4all.com.widgets.DownloadWidget/mime_jp2.png)
+}
+
+.cm4all-download-mime-video-quicktime {
+  background-image : url(/.cm4all/widgetres.php/cm4all.com.widgets.DownloadWidget/mime_mov.png)
+}
+
+.cm4all-download-mime-audio-mpeg3,
+.cm4all-download-mime-audio-x-mpeg-3 {
+  background-image : url(/.cm4all/widgetres.php/cm4all.com.widgets.DownloadWidget/mime_mp3.png)
+}
+
+.cm4all-download-mime-application-pdf {
+  background-image : url(/.cm4all/widgetres.php/cm4all.com.widgets.DownloadWidget/mime_pdf.png)
+}
+
+.cm4all-download-mime-image-png {
+  background-image : url(/.cm4all/widgetres.php/cm4all.com.widgets.DownloadWidget/mime_png.png)
+}
+
+.cm4all-download-mime-application-mspowerpoint,
+.cm4all-download-mime-application-powerpoint,
+.cm4all-download-mime-application-vnd-ms-powerpoint,
+.cm4all-download-mime-application-x-mspowerpoint {
+  background-image : url(/.cm4all/widgetres.php/cm4all.com.widgets.DownloadWidget/mime_ppt.png)
+}
+
+.cm4all-download-mime-application-x-rar-compressed {
+  background-image : url(/.cm4all/widgetres.php/cm4all.com.widgets.DownloadWidget/mime_rar.png)
+}
+
+.cm4all-download-mime-application-x-shockwave-flash {
+  background-image : url(/.cm4all/widgetres.php/cm4all.com.widgets.DownloadWidget/mime_swf.png)
+}
+
+.cm4all-download-mime-application-x-tar
+{
+  background-image : url(/.cm4all/widgetres.php/cm4all.com.widgets.DownloadWidget/mime_tar.png)
+}
+
+.cm4all-download-mime-application-gnutar,
+.cm4all-download-mime-application-x-compressed {
+  background-image : url(/.cm4all/widgetres.php/cm4all.com.widgets.DownloadWidget/mime_tgz.png)
+}
+
+.cm4all-download-mime-image-tiff,
+.cm4all-download-mime-image-x-tiff {
+  background-image : url(/.cm4all/widgetres.php/cm4all.com.widgets.DownloadWidget/mime_tif.png)
+}
+
+.cm4all-download-mime-application-plain,
+.cm4all-download-mime-text-plain {
+  background-image : url(/.cm4all/widgetres.php/cm4all.com.widgets.DownloadWidget/mime_txt.png)
+}
+
+.cm4all-download-mime-audio-wav,
+.cm4all-download-mime-audio-x-wav {
+  background-image : url(/.cm4all/widgetres.php/cm4all.com.widgets.DownloadWidget/mime_wav.png)
+}
+
+.cm4all-download-mime-audio-x-ms-wma {
+  background-image : url(/.cm4all/widgetres.php/cm4all.com.widgets.DownloadWidget/mime_wma.png)
+}
+
+.cm4all-download-mime-video-x-ms-wmv {
+  background-image : url(/.cm4all/widgetres.php/cm4all.com.widgets.DownloadWidget/mime_wmv.png)
+}
+
+.cm4all-download-mime-application-excel,
+.cm4all-download-mime-application-vnd.ms-excel,
+.cm4all-download-mime-application-x-excel,
+.cm4all-download-mime-application-x-msexcel{
+  background-image : url(/.cm4all/widgetres.php/cm4all.com.widgets.DownloadWidget/mime_xls.png)
+}
+
+.cm4all-download-mime-application-x-zip-compressed,
+.cm4all-download-mime-application-zip{
+  background-image : url(/.cm4all/widgetres.php/cm4all.com.widgets.DownloadWidget/mime_zip.png)
+}
